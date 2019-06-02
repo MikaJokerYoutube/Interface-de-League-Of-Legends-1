@@ -1,0 +1,15 @@
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\bin\Debug\Client LeagueOfLegends.exe.config
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\bin\Debug\Client LeagueOfLegends.exe
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\bin\Debug\Client LeagueOfLegends.pdb
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.csprojAssemblyReference.cache
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\MainWindow.g.cs
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\App.g.cs
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends_MarkupCompile.cache
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends_MarkupCompile.lref
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\MainWindow.baml
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.g.resources
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client_LeagueOfLegends.Properties.Resources.resources
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.csproj.GenerateResource.cache
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.csproj.CoreCompileInputs.cache
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.exe
+C:\Users\YamiPharaon\source\repos\Client LeagueOfLegends\Client LeagueOfLegends\obj\Debug\Client LeagueOfLegends.pdb
