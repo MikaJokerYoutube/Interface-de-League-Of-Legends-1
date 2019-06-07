@@ -8,3 +8,11 @@ Oui bon il n'y a pas grand chose dans le README, juste pour info et pour ceux qu
 Ils doivent se rendre le dossier : Client LeagueOfLegends\bin\Debug\Client LeagueOfLegends.exe 
 
 Voilà voilà 
+
+---------------------------------------
+
+<h1> Amélioration visuelles </h1>
+<ul>
+    <li>Possibilité de déplacer la fenêtre</li>
+    <li>Changement du background quand le champs "Nom d'utilisateur" ou "Mot de passe" est sélectionné. et background normal si c'est pas sélectionner</li>
+</ul>
