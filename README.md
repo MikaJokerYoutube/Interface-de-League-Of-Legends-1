@@ -11,7 +11,7 @@ Voilà voilà
 
 ---------------------------------------
 
-<h1> Amélioration visuelles </h1>
+<h2> Amélioration visuelles Vendredi 7 juin 2019</h2>
 <ul>
     <li>Possibilité de déplacer la fenêtre</li>
     <li>Changement du background quand le champs "Nom d'utilisateur" ou "Mot de passe" est sélectionné. et background normal si c'est pas sélectionner</li>
