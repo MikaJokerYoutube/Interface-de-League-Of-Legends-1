@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client_LeagueOfLegends"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280" ResizeMode="NoResize" WindowStyle="None">
+        Title="MainWindow" MouseDown="Window_MouseDown" Height="720" Width="1280" ResizeMode="NoResize" WindowStyle="None">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -24,21 +24,17 @@
         <Rectangle Margin="1043,0,236,0" Fill="#FF1E282D" Width="1"/>
         <Label Content="Désactiver les animation sur l'écran de connexion" HorizontalAlignment="Left" Margin="188,655,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
         <Label Content="Désactiver la musique sur l'écran de connexion" HorizontalAlignment="Left" Margin="188,629,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="168,635,0,0" VerticalAlignment="Top" BorderBrush="#FF785A28">
-            <CheckBox.Background>
-                <ImageBrush ImageSource="ressources/bg.png"/>
-            </CheckBox.Background>
-        </CheckBox>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="168,661,0,0" VerticalAlignment="Top" BorderBrush="#FF785A28" Background="#FF03080E"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="168,635,0,0" VerticalAlignment="Top" BorderBrush="#FF785A28" Background="#FF03080E"/>
+        <CheckBox Content=""  HorizontalAlignment="Left" Margin="168,661,0,0" VerticalAlignment="Top" BorderBrush="#FF785A28" Background="#FF03080E"/>
         <Rectangle Margin="1043,684,0,35" Fill="#FF1E282D" Height="1"/>
         <Label Content="V9.11.276.1040"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1098,690,74,5" Foreground="#FF3C3C36" FontFamily="Verdana"/>
-        <Label Content="Mot de passe oublié ?" HorizontalAlignment="Left" Margin="1058,630,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
-        <Label Content="Nom d'utilisateur oublié ?" HorizontalAlignment="Left" Margin="1058,614,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
-        <Label Content="Crée un compte ?" HorizontalAlignment="Left" Margin="1058,646,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
+        <Label x:Name="motdepasseoublie" MouseEnter="Motdepasseoublie_MouseEnter" Content="Mot de passe oublié ?" HorizontalAlignment="Left" Margin="1058,630,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
+        <Label x:Name="username" MouseEnter="Username_MouseEnter" Content="Nom d'utilisateur oublié ?" HorizontalAlignment="Left" Margin="1058,614,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
+        <Label x:Name="createaccount"  MouseEnter="Createaccount_MouseEnter" Content="Crée un compte ?" HorizontalAlignment="Left" Margin="1058,646,0,0" VerticalAlignment="Top" Foreground="#FF0496AA"/>
 
-        <Label Content="Nom d'utilisateur" HorizontalAlignment="Left" Margin="1066,182,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
-        <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="1065,247,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
-        <Label Content="Région/Langue" HorizontalAlignment="Left" Margin="1071,391,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
+        <Label Content="Nom d'utilisateur" HorizontalAlignment="Left" Margin="1066,194,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
+        <Label Content="Mot de passe" HorizontalAlignment="Left" Margin="1065,259,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
+        <Label Content="Région/Langue" HorizontalAlignment="Left" Margin="1071,403,0,0" VerticalAlignment="Top" Foreground="#FF969183"/>
         <Button Content="CONNEXION" BorderThickness="2" Margin="1066,541,19,0" VerticalAlignment="Top" Height="32" Background="#FF10161E" FontFamily="Verdana" FontWeight="Bold" Foreground="#FFA3C7C7" FontSize="14">
             <Button.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -47,7 +43,7 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <TextBox Height="31" Margin="1071,208,19,0" VerticalContentAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Background="#FF000306" FontSize="13" FontFamily="Verdana" Foreground="White">
+        <TextBox x:Name="tb_username" Height="31" Margin="1071,220,19,0"  VerticalContentAlignment="Center" LostFocus="Tb_username_LostFocus" GotFocus="Tb_username_GotFocus" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Background="#FF000306" FontSize="13" FontFamily="Verdana" Foreground="White">
             <TextBox.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC4A361" Offset="0"/>
@@ -55,7 +51,7 @@
                 </LinearGradientBrush>
             </TextBox.BorderBrush>
         </TextBox>
-        <CheckBox Margin="1071,327,24,0" BorderThickness="1" Foreground="#FF969183" VerticalAlignment="Top" BorderBrush="#FF785A28" FontSize="14" Height="22" Background="#FF010912" />
+        <CheckBox Margin="1071,339,24,0" BorderThickness="1" Foreground="#FF969183" VerticalAlignment="Top" BorderBrush="#FF785A28" FontSize="14" Height="22" Background="#FF010912" />
         <Rectangle Height="85" Margin="1085,39,37,0" VerticalAlignment="Top">
             <Rectangle.Fill>
                 <ImageBrush ImageSource="ressources/logo.png" Stretch="Uniform"/>
@@ -91,7 +87,7 @@
                 <ImageBrush ImageSource="ressources/separate.png" Stretch="Uniform"/>
             </Rectangle.Fill>
         </Rectangle>
-        <PasswordBox Height="31" Margin="1071,273,19,0"  VerticalContentAlignment="Center"  VerticalAlignment="Top" Background="#FF000306" FontFamily="Verdana" FontSize="13" Foreground="White">
+        <PasswordBox x:Name="etPassword" LostFocus="EtPassword_LostFocus" GotFocus="EtPassword_GotFocus" Height="31" Margin="1071,285,19,0"  VerticalContentAlignment="Center"  VerticalAlignment="Top" Background="#FF000306" FontFamily="Verdana" FontSize="13" Foreground="White">
             <PasswordBox.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC4A361" Offset="0"/>
@@ -99,8 +95,8 @@
                 </LinearGradientBrush>
             </PasswordBox.BorderBrush>
         </PasswordBox>
-        <Label Content="Mémoriser nom" HorizontalAlignment="Left" Margin="1088,312,0,0" VerticalAlignment="Top" Foreground="#FF878566"/>
-        <Label Content="d'utilisateur" HorizontalAlignment="Left" Margin="1088,328,0,0" VerticalAlignment="Top" Foreground="#FF878566"/>
+        <Label Content="Mémoriser nom" HorizontalAlignment="Left" Margin="1088,324,0,0" VerticalAlignment="Top" Foreground="#FF878566"/>
+        <Label Content="d'utilisateur" HorizontalAlignment="Left" Margin="1088,340,0,0" VerticalAlignment="Top" Foreground="#FF878566"/>
         <Rectangle Height="3" Margin="1043,0,0,0" VerticalAlignment="Top">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -110,6 +106,9 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
+        <Label Content="CONNEXION" HorizontalAlignment="Left" Margin="1070,146,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontFamily="Verdana" FontSize="13" Height="23" Width="151"/>
+        <ComboBox x:Name="combo_region" Margin="1071,434,19,0" VerticalAlignment="Top" Height="29" Background="#FF10161E" BorderBrush="#FFC3A261"/>
+        <ComboBox x:Name="combo_pays" Margin="1071,468,19,0" VerticalAlignment="Top" Height="29" Background="#FF10161E" BorderBrush="#FFC3A261"/>
 
 
     </Grid>

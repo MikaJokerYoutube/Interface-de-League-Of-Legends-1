@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressources/bg.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressources/tb.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressources/tb_focused.png")]
 
 
