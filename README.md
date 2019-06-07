@@ -8,6 +8,8 @@ Oui bon il n'y a pas grand chose dans le README, juste pour info et pour ceux qu
 Ils doivent se rendre le dossier : Client LeagueOfLegends\bin\Debug\Client LeagueOfLegends.exe 
 
 Voilà voilà 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y5RZkFg0Kds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---------------------------------------
 
