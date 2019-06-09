@@ -10,7 +10,7 @@ Ils doivent se rendre le dossier : Client LeagueOfLegends\bin\Debug\Client Leagu
 Voilà voilà 
 
 <ul>
-    <li>Vidéo 1 - https://www.youtube.com/embed/Y5RZkFg0Kds</li>
+    <li>Vidéo 1 - https://youtu.be/Y5RZkFg0Kds</li>
     <li>Vidéo 2 - https://youtu.be/7jU-fImYL9M</li>
 </ul>
 
