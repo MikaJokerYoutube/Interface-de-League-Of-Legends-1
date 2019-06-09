@@ -9,11 +9,11 @@ Ils doivent se rendre le dossier : Client LeagueOfLegends\bin\Debug\Client Leagu
 
 Voilà voilà 
 
-Vidéo 1
-https://www.youtube.com/embed/Y5RZkFg0Kds
-Vidéo 2
-<br/>
-https://youtu.be/7jU-fImYL9M
+<ul>
+    <li>Vidéo 1 - https://www.youtube.com/embed/Y5RZkFg0Kds</li>
+    <li>Vidéo 2 - https://youtu.be/7jU-fImYL9M</li>
+</ul>
+
 ---------------------------------------
 
 <h2> Amélioration visuelles Vendredi 7 juin 2019</h2>
