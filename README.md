@@ -11,7 +11,7 @@ Voilà voilà
 
 <ul>
     <li>Vidéo 1 - https://youtu.be/Y5RZkFg0Kds</li>
-    <li>Vidéo 2 - https://youtu.be/7jU-fImYL9M</li>
+    <li>Vidéo 2 - https://youtu.be/7jU-fImYL9M - Vendredi 7 juin 2019</li>
 </ul>
 
 ---------------------------------------
